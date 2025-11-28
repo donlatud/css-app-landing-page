@@ -74,3 +74,160 @@ body {
     background-color:#E8DCF6;
     ;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inter;
+}
+
+body {
+  background-color: #f6f6fb;
+  width: 1440px;
+  height: 1946px;
+}
+
+.header-container {
+  width: 1440px;
+  height: 128px;
+  padding: 24px;
+  gap: 10px;
+  position: fixed;
+  z-index: 1000;
+}
+
+.nav-container {
+  border-bottom: 1px solid green;
+  border: none;
+  border-radius: 99px;
+  background-color: white;
+  margin: 16px;
+  width: 1392px;
+  height: 80px;
+  padding: 12px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 53px;
+  height: 13.39px;
+  left: 1px;
+  position: relative;
+}
+
+.acme-logo {
+  width: 48.53px;
+  height: 13.39px;
+  left: 1px;
+  position: relative;
+}
+
+.circle {
+  width: 4.4px;
+  height: 4.4px;
+  border-radius: 50%;
+  background-color: #5e44ff;
+  top: 4px;
+  right: 6px;
+  position: absolute;
+}
+
+.link {
+  width: 420px;
+  height: 56px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px 24px;
+}
+
+.home {
+  color: #5e44ff;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.hero-section {
+  width: 1440px;
+  height: 968px;
+  padding: 248px 120px 140px 120px;
+  gap: 120px;
+}
+
+.frame {
+  width: 1200px;
+  height: 316px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag {
+  width: 236px;
+  height: 40px;
+  border-radius: 999px;
+  padding: 8px 20px;
+  background-color: rgba(86, 58, 255, 0.1);
+}
+
+.tag div {
+  width: 196px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(94, 68, 255, 1);
+}
+
+.description {
+  width: 1200px;
+  height: 140px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-description {
+  width: 1200px;
+  height: 84px;
+  font-weight: 800;
+  font-size: 80px;
+  text-align: center;
+}
+
+.highlight-message {
+  color: #5e44ff;
+}
+
+.sub-head-description {
+  width: 1200px;
+  height: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #1a1a2c;
+}
+
+.free-trial-btn {
+  width: 187px;
+  height: 56px;
+  border-radius: 16px;
+  border: none;
+  padding: 16px 36px;
+  gap: 6px;
+  background-color: #1a1a2c;
+}
+
+.text-btn {
+  width: 115px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
