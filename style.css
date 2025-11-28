@@ -231,66 +231,104 @@ body {
 }
 
 .contact-section {
-    width: 1439px;
-    height: 850px;
-    padding-right: 120px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding-bottom: 80px;
-    padding-left: 120px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 80px;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contact-card {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 32px;
+    padding: 64px;
+    box-shadow: 0 35px 80px rgba(20, 16, 61, 0.08);
+}
+
+.contact-card h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color:#1A1A2C;
+    text-align: center;
+    margin-bottom: 32px;
 }
 
 .contact-form {
-    width: 1199px;
-    height: 666px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
 }
 
-.contact-form h2 {
-    width: 261px;
-    height: 48px;
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-field label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #1A1A2C;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 1px solid #dfe2f2;
+    background-color: #f7f8ff;
+    font-size: 16px;
+    color: #1A1A2C;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-field textarea {
+    resize: none;
+    min-height: 140px;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+    border-color: #5e44ff;
+    box-shadow: 0 0 0 3px rgba(94, 68, 255, 0.15);
+}
+
+.submit-btn {
+    width: 100%;
+    height: 56px;
+    border-radius: 16px;
+    border: none;
+    padding: 16px 36px;
+    background-color:#1A1A2C;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0f0f1c;
+    transform: translateY(-1px);
 }
 
 .footer {  
-    width: 1199px;  
-    height: 24px;  
+    width: 100%;  
     display: flex;  
     justify-content: space-between;  
-    align-items: center;  
+    align-items: center;
+    color: #5F5F76;
+    font-size: 16px;
 }
-.footer-description { 
-     width: 237px;  
-     height: 24px;  
-     font-weight: 500; 
-     font-size: 16px;  
-     color: #5F5F76;
-    }
+
 .footer-link {  
-    width: 313px;  
-    height: 24px;
     display: flex;
     justify-content: space-between;  
     align-items: center;  
-    gap: 20px;
+    gap: 32px;
 }
-.faq {  
-    width: 32px;  
-    height: 24px;
-}
-.term {  
-    width: 49px;  
-    height: 24px;
-}
-.policy{  
-    width: 67px;  
-    height: 24px;
-}
-.footer-price { 
-     width: 54px; 
-      height: 24px;
-    }
