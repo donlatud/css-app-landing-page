@@ -33,7 +33,7 @@ body {
     background-color: #D7E5F6;
 }
 
-.icon {
+.feature-card-icon {
     width: 60px;
     height: 60px;
     padding: 14px 14px;
@@ -49,7 +49,7 @@ body {
     gap: 12px;
 }
 
-h3 {
+.feature-card-content h3 {
     width: 331px;
     height: 32px;
     font-weight: 600;
@@ -57,7 +57,7 @@ h3 {
     color: #1A1A2C;
 }
 
-p {
+.feature-card-content p {
     width: 331px;
     height: 72px;
     font-weight: 500;
