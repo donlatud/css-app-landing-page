@@ -228,3 +228,49 @@ body {
   font-size: 16px;
   color: white;
 }
+
+.footer {
+  width: 1199px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1800px;
+}
+
+.footer-description {
+  width: 237px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #5F5F76;
+}
+
+.footer-link {
+  width: 313px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.faq {
+  width: 32px;
+  height: 24px;
+}
+
+.term {
+  width: 49px;
+  height: 24px;
+}
+
+.policy{
+  width: 67px;
+  height: 24px;
+}
+
+.footer-price {
+  width: 54px;
+  height: 24px;
+}
