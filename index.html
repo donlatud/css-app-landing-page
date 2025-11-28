@@ -20,67 +20,125 @@
     />
   </head>
   <body>
-    <main class="hero-section">
-    <header class="header-container">
-      <nav class="nav-container">
-        <div class="logo">
-          <div class="acme-logo">Acme</div>
-          <div class="circle"></div>
-        </div>
-        <div class="link">
-          <div class="home">Home</div>
-          <div class="feature">Features</div>
-          <div class="price">Pricing</div>
-          <div class="contact">Contact</div>
-        </div>
-      </nav>
-    </header>
-    <main class="hero-section">
-      <section class="frame">
-        <div class="tag"><div>Acme Productivity App</div></div>
-        <div class="description">
-          <h1 class="head-description">Boost Your <span class="highlight-message">Product</span>ivity</h1>
-          <h3 class="sub-head-description">
-            Streamline your workflow with our all-in-one productivity app
-          </h3>
-        </div>
-        <button class="free-trial-btn">
-          <div class="text-btn">Start Free Trial</div>
-        </button>
-      </section>
-      <section class="feature-container">
-        <div class="feature-card feature-card--workflow">
-          <img class="feature-card-icon" src="./pic/icon-rocket.png" alt="icon rock" />
-          <div class="feature-card-content">
-            <h3>Streamlined Workflows</h3>
-            <p>
-              Automate repetitive tasks and focus on high-impact work with our
-              powerful productivity features.
-            </p>
+    <div class="webpage">
+      <header class="header-container">
+        <nav class="nav-container">
+          <div class="logo">
+            <div class="acme-logo">Acme</div>
+            <div class="circle"></div>
           </div>
-        </div>
+          <div class="link">
+            <div class="home">Home</div>
+            <div class="feature">Features</div>
+            <div class="price">Pricing</div>
+            <div class="contact">Contact</div>
+          </div>
+        </nav>
+      </header>
 
-        <div class="feature-card feature-card--performance">
-          <img class="feature-card-icon" src="./pic/icon-borad.png" alt="icon icon borad" />
-          <div class="feature-card-content">
-            <h3>Blazing Fast Performance</h3>
-            <p>
-              Experience lightning-fast performance and instant responsiveness
-              with our cutting-edge technology.
-            </p>
+      <main class="hero-section">
+        <section class="frame">
+          <div class="tag"><div>Acme Productivity App</div></div>
+          <div class="description">
+            <h1 class="head-description">
+              Boost Your <span class="highlight-message">Product</span>ivity
+            </h1>
+            <h3 class="sub-head-description">
+              Streamline your workflow with our all-in-one productivity app
+            </h3>
           </div>
-        </div>
+          <button class="free-trial-btn">
+            <div class="text-btn">Start Free Trial</div>
+          </button>
+        </section>
 
-        <div class="feature-card feature-card--interface">
-          <img class="feature-card-icon" src="./pic/icon-smile.png" alt="icon smile" />
-          <div class="feature-card-content">
-            <h3>Intuitive Interface</h3>
-            <p>
-              Our user-friendly interface makes it easy for anyone to streamline
-              their workflow.
-            </p>
+        <section class="feature-container">
+          <div class="feature-card feature-card--workflow">
+            <img
+              class="feature-card-icon"
+              src="./pic/icon-rocket.png"
+              alt="icon rock"
+            />
+            <div class="feature-card-content">
+              <h3>Streamlined Workflows</h3>
+              <p>
+                Automate repetitive tasks and focus on high-impact work with our
+                powerful productivity features.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card feature-card--performance">
+            <img
+              class="feature-card-icon"
+              src="./pic/icon-borad.png"
+              alt="icon icon borad"
+            />
+            <div class="feature-card-content">
+              <h3>Blazing Fast Performance</h3>
+              <p>
+                Experience lightning-fast performance and instant responsiveness
+                with our cutting-edge technology.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card feature-card--interface">
+            <img
+              class="feature-card-icon"
+              src="./pic/icon-smile.png"
+              alt="icon smile"
+            />
+            <div class="feature-card-content">
+              <h3>Intuitive Interface</h3>
+              <p>
+                Our user-friendly interface makes it easy for anyone to
+                streamline their workflow.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="contact-section">
+          <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form class="contact-form-title">
+              <label for="name">Name</label>
+              <br />
+              <input type="text" id="name" name="name" placeholder="John Doe" />
+              <br />
+              <label for="email">Password</label>
+              <br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john@example.com"
+              />
+              <br />
+              <label for="message">Messge</label>
+              <br />
+              <input
+                type="text"
+                id="message"
+                name="message"
+                placeholder="Your message..."
+              />
+              <br />
+              <button class="submit-btn">Submit</button>
+            </form>
           </div>
         </div>
-    </main>
+        <footer class="footer">
+          <div class="footer-description">Acme productivity app ©2024</div>
+          <div class="footer-link">
+            <div class="faq">FAQ</div>
+            <div class="term">Terms</div>
+            <div class="policy">Al Policy</div>
+            <div class="footer-price">Pricing</div>
+          </div>
+        </footer>
+      </main>
+    </div>
   </body>
 </html>
